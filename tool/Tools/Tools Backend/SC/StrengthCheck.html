@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SC.css">
+    <title>Password Strenght Checker</title>
+</head>
+<header style="overflow: hidden; background-color: #f1f1f1; padding: 20px 10px;">
+    <div style="font-size: 25px; font-weight: bold;">
+        <span
+            style="float: left; color: rgb(255, 255, 255); text-align: center; padding: 12px; text-decoration: none; line-height: 25px; border-radius: 4px; font-size: 25px; font-weight: bold;">
+            Tools
+        </span>
+        <div style="float: right;">
+            <a href="../home.html"
+                style="float: left; color: rgb(255, 255, 255); text-align: center; padding: 12px; text-decoration: none; font-size: 18px; line-height: 25px; border-radius: 4px;">Home</a>
+            <a href="../RPG/RandomPassGen.html"
+                style="float: left; color: rgb(255, 255, 255); text-align: center; padding: 12px; text-decoration: none; font-size: 18px; line-height: 25px; border-radius: 4px;">RPG</a>
+            <a href="StrengthCheck.html"
+                style="float: left; color: rgb(255, 255, 255); text-align: center; padding: 12px; text-decoration: none; font-size: 18px; line-height: 25px; border-radius: 4px;">SC</a>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="container" id="container">
+        <div class="grey_div">
+            <div class="input_box">
+                <input type="password" id="password" placeholder="Enter Password...">
+            </div>
+            <div id="border">
+                <h2> Password Should Include :</h2>
+                <ul>
+                    <li id="Numb">◉ Numbers</li>
+                    <li id="Lc">◉ Lowercase</li>
+                    <li id="Uc">◉ Upper Case</li>
+                    <li id="Schar">◉ Special Characters</li>
+                </ul>
+                <p id="message">Password Strength : <span id="strength"></span> </p>
+            </div>
+            <h2 id="bottomMessage"></h2>
+        </div>
+    </div>
+
+
+    <script src="SC.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 20vw;
+    height: 45vh;
+    margin: 30px;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+}
+
+#daba {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    text-align: left;
+    line-height: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+}   
+#PSG {
+    background-color: rgb(63, 63, 63);
+}
+#RPG {
+    background-color: rgb(63, 63, 63);
+    
+}
